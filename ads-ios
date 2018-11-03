@@ -1,0 +1,47 @@
+[Adblock Plus 1.1]
+!
+! Title:   ad-blocking iOS
+! Home:    https://github.com/duvanr/adscol
+! License: http://www.gnu.org/licenses/gpl.html
+! Contact: Projecto para editar mis propios ads
+! Version: $Id$
+!
+/pauta/*
+#div(class*=publicidad)
+mercadolibre.com.co#div(id=oasTOP)
+mercadolibre.com.co#div(class*=mclics)
+elespectador.com#div(class*=pauta)
+elespectador.com#div(class*=patrocinio)
+elespectador.com#div(class*=booking-losticketesmasbaratos)
+elespectador.com#div(class*=dfp_google)
+elespectador.com#div(class*=checkout)
+elespectador.com#div(id^=checkout-container)
+elespectador.com#div(id^=tp-modal)
+tinypass.com
+eluniversal.com.co#div(id^=publicidad_superior)
+vanguardia.com#div(class*=codigos)
+vanguardia.com#div(id^=enlacesadicionales)
+wradio.com.co#div(class*=publi)
+www.portafolio.co#div(class*=subscribe-board)
+www.laopinion.com.co#div(class*=pauta)
+www.laopinion.com.co#div(class*=pautas_header)
+www.laopinion.com.co#div(class*=patrocinio)
+www.elcolombiano.com/#div(id^=tiquetesMasBaratos)
+www.elcolombiano.com#div(class*=carrusel_comercial)
+cdn.elespectador.co/files/*.jpg
+www.elfrente.com.co/web/imagenes/BANNER*.png
+semana.com#div(id^=AdBlockContentModal)
+semana.com#div(class*=reveal-modal-bg)
+semana.com/Scripts/Site/Site.js
+seg.eltiempo.com
+www.eltiempo.com##div(class="qc-cmp-ui-content")
+elheraldo.co##adblock-mensaje
+rcnradio.com##.ads-alert-video
+
+! 
+! MALICIOUS:
+
+! 
+! WHITELISTS
+@@.edu.co/*banners/
+@@|http://www.enter.co
