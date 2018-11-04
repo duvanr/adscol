@@ -43,6 +43,7 @@ www.elheraldo.co#div[class="block--block--182"]
 www.elheraldo.co#div[class="panel-col-last panel-panel"]
 rcnradio.com##.ads-alert-video
 
+! Youtube
 ##.ad-container
 ##.video-ads
 ##.ytp-ad-progress-list
@@ -58,6 +59,25 @@ rcnradio.com##.ads-alert-video
 ||www.youtube.com/api/stats
 ||www.youtube.com/pagead
 ||www.youtube.com/ptracking
+youtube.com##.promoted-videos
+
+! Twitter
+twitter.com##.has-profile-promoted-tweet
+twitter.com##.is-promoted
+twitter.com##.promoted-account
+twitter.com##.promoted-trend
+twitter.com##.promoted-tweet[data-disclosure-type="political"]
+twitter.com##.promoted-tweet[data-disclosure-type="promoted"]
+reddit.com##.promotedlink
+twitter.com,wral.com##.promotion
+! Twitter
+@@||ads.twitter.com^$domain=ads.twitter.com|analytics.twitter.com
+@@||ton.twimg.com/ads-manager/$domain=twitter.com
+@@||ton.twimg.com^$domain=ads.twitter.com|analytics.twitter.com
+
+! Amazon.com
+@@||advertising.amazon.com^$domain=advertising.amazon.com
+@@||ams.amazon.com^$domain=ams.amazon.com
 
 ! 
 ! MALICIOUS:
