@@ -36,11 +36,6 @@ semana.com/Scripts/Site/Site.js
 seg.eltiempo.com
 www.eltiempo.com##div(class="qc-cmp-ui-content")
 elheraldo.co##adblock-mensaje
-www.elheraldo.co#div(id^=widget_horizontal_3_noticias_mas_pauta)
-www.elheraldo.co#div[class="mini-panel-rincon_juniorista"]
-www.elheraldo.co#div(id^=sliderproyecto)
-www.elheraldo.co#div[class="block--block--182"]
-www.elheraldo.co#div[class="panel-col-last panel-panel"]
 rcnradio.com##.ads-alert-video
 
 ! Youtube
